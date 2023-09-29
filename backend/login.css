@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;   
+ 
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    width: 100%;
+    min-height: 100vh;
+     padding-left: 460px;
+    background-size: 140%;
+    background-image: url("escola2.jpg");
+    background-repeat: no-repeat;
+}
+    
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+main{
+    margin:auto;
+    width: 40%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+ 
+    
+}
+main h1{
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+main label{
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+}
+
+p{
+    color: #ffffff00;
+}
+
+button{
+    background-color: rgb(37, 130, 184);
+    color: rgb(250, 250, 250);
+    align-self: center;
+    margin-top: 10px;
+    transition: background-color 0.5s;
+    width: 30%;
+    height: 30%;
+    font-size: 16px;
+    padding: 2px;
+}
+
+button:hover{
+    background-color: #90D797;
+}
+
+main input{
+    border: 1px solid #000000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input { 
+    color: black;
+    width: 300px;
+    height: 29px;
+    font-size: 18px;
+}
+
+a{
+    color: rgb(0, 0, 0);
+    font-size: medium;
+    margin-top: 5px;
+}
