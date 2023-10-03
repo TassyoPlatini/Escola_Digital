@@ -9,22 +9,25 @@ function createUser(){
         nome: "Roberto", 
         displayName: "RobertoLogin",
         senha: "10329904",
-        turma: "9º Fund. 2",
-        saldo: 240
+        turma: "9º ano, Fundamental 2",
+        saldo: 240,
+        presenca:"80%"
     }
     let usuario2 = { 
         nome: "Alberto", 
         displayName: "AlbertoA",
         senha: "482730!",
-        turma: "3º EM",
-        saldo: 10
+        turma: "3º ano do Ensino Médio",
+        saldo: 10,
+        presenca: "20%"
     }
     let usuario3 = { 
         nome: "Marcelo", 
-        displayName: "Marelogin",
+        displayName: "Marcelogin",
         senha: "marc20193",
-        turma: "6º Fund. 1",
-        saldo: 50
+        turma: "6º ano, Fundamental 1",
+        saldo: 50,
+        presenca: "40%"
     }
     usuarios.push(usuario1, usuario2, usuario3)
     localStorage.setItem('cadastrados', JSON.stringify(usuarios))
@@ -54,5 +57,6 @@ function login() {
 }
 
 function purge() {
+    alert('Usuários Deletados!')
     localStorage.clear();
 }
