@@ -50,7 +50,7 @@ function login() {
     if(procura_usuario(guarda_user, guarda_senha) != -1){
         alert("Usuário validado! Bem-vindo!")
         localStorage.setItem('atualmenteLogado', JSON.stringify(logado))
-        location.assign('home.html')
+        location.assign('html/home.html')
     }else{
         alert("Usuário não validado!")
     }

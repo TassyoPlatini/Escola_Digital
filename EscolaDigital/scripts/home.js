@@ -15,5 +15,5 @@ document.getElementById("turma").innerHTML = usuarios[logado].turma;
 
 function btnSair() {
     localStorage.removeItem("atualmenteLogado");
-    location.assign('login.html')
+    location.assign('../index.html')
 }
