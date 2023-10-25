@@ -1,25 +1,26 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-size: 1.2rem;
-    font-family: Arial, Helvetica, sans-serif;   
- 
+    font-family: Arial, Helvetica, sans-serif;
+
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center ;
+    justify-content: center;
     width: 100%;
     min-height: 100vh;
-     padding-left: 460px;
+    padding-left: 460px;
     background-size: 140%;
     background-image: url("../assets/escola2.png");
     background-repeat: no-repeat;
 }
-    
-.login{
+
+.cadastro {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -27,36 +28,39 @@ body{
     width: 100%;
 }
 
-.login a {
+.cadastro a {
     text-decoration: none;
     color: white;
 }
-main{
-    margin:auto;
+
+main {
+    margin: auto;
     width: 40%;
     height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
- 
-    
+
 }
-main h1{
+
+main h1 {
     color: white;
     text-align: center;
     font-size: larger;
 }
-main label{
+
+main label {
     color: rgb(255, 255, 255);
     margin-top: 10px;
+    font-size: 20px;
 }
 
-p{
+p {
     color: #ffffff00;
 }
 
-button{
+button {
     background-color: rgb(37, 130, 184);
     color: rgb(250, 250, 250);
     align-self: center;
@@ -68,24 +72,26 @@ button{
     padding: 2px;
 }
 
-button:hover{
+button:hover {
     background-color: #90D797;
 }
 
-main input{
+main input {
     border: 1px solid #000000;
     border-radius: 4px;
     box-sizing: border-box;
+    font-size: 15px;
+    padding: 10px;
 }
 
-input { 
+input {
     color: black;
     width: 300px;
     height: 29px;
     font-size: 18px;
 }
 
-a{
+a {
     color: rgb(0, 0, 0);
     font-size: medium;
     margin-top: 5px;

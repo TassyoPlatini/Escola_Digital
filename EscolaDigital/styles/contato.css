@@ -5,7 +5,7 @@
 
 /* Estilo do menu */
 header {
-    background: linear-gradient(to right, #1b33cf, #9ea8e8, red);
+    background: #1C2040;
     color: #fff;
     padding: 10px 0;
     width: 100%;
@@ -35,7 +35,7 @@ nav a:hover {
 
 /* Estilo do rodapé */
 footer {
-    background: linear-gradient(to right, #1b33cf, #9ea8e8, red);
+    background: #1c20409d;
     color: #fff;
     text-align: center;
     position: fixed;
@@ -90,7 +90,7 @@ iframe {
 }
 
 body {
-    background: linear-gradient(to right, #6170cd, #d0d6f8, rgb(187, 87, 87));
+    background: white;
     background-size: cover;
     margin: 0px;
 }
