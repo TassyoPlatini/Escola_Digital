@@ -1,4 +1,4 @@
--## Como conectar o Banco de Dados ao Visual Studio Code (python)
+## Como conectar o Banco de Dados ao Visual Studio Code (python)
 
 - Instalar o MySQL Workbench (caso n tenha)
 - Criar a sua conta
