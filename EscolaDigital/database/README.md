@@ -1,6 +1,6 @@
--## Como conectar o Banco de Dados ao Visual Studio Code (python)
+## Como conectar o Banco de Dados ao Visual Studio Code (python)
 
-- Instalar o MySQL Workbench (caso n tenha)
+- Instalar o MySQL Workbench (caso não tenha)
 - Criar a sua conta
 - Após entrar no mysql, você irá conectar no Visual Studio Code com o seguinte codigo [python_mysql.py](https://github.com/TassyoPlatini/Escola_Digital/blob/main/EscolaDigital/python/python_mysql.py)
 - Depois de você ter feito isso, você irá copiar esse codigo no MySQL Workbench [banco.sql](https://github.com/TassyoPlatini/Escola_Digital/blob/main/database/banco.sql)
@@ -13,7 +13,7 @@
 
 ## Criando as tabelas no MySQL Workbench
 
-- Após ter criado as tabelas feito está no [banco.sql](https://github.com/TassyoPlatini/Escola_Digital/blob/main/database/banco.sql) você irá selecionar uma tabela de cada vez e clicará no ícone do raio
+- Após rodar os creates presentes no [banco.sql](https://github.com/TassyoPlatini/Escola_Digital/blob/main/database/banco.sql) selecionando uma tabela de cada vez e clicando no ícone do raio
 
 ## Mostrando as tabelas
 
