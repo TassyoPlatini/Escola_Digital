@@ -6,17 +6,17 @@ if (localStorage.getItem('cadastrados')){
 
 function createUser(){
     let usuario1 = { 
-        nome: "Roberto", 
-        displayName: "RobertoLogin",
-        senha: "10329904",
+        nome: "Tassyo", 
+        displayName: "Tassyologin",
+        senha: "01516372",
         turma: "9º ano, Fundamental 2",
         saldo: 240,
         presenca:"80%"
     }
     let usuario2 = { 
-        nome: "Alberto", 
-        displayName: "AlbertoA",
-        senha: "482730!",
+        nome: "Levi", 
+        displayName: "Levilogin",
+        senha: "01529075",
         turma: "3º ano do Ensino Médio",
         saldo: 10,
         presenca: "20%"
